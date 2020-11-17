@@ -22,10 +22,9 @@ btnInvio.addEventListener("click", function (){
       emailFound = true;
       break;
     } else {
-      emailFound = false
+      emailFound = false;
     }
   }
-
 
   if (emailFound == true) {
     message = "L'email per il ripristino della password è stata inviata";
